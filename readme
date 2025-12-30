@@ -1,0 +1,46 @@
+Mini User Management System – Frontend
+
+This is the frontend application of the Mini User Management System, built using React (Vite).
+It provides user interfaces for authentication, navigation, and protected pages, and communicates with a Node.js + MongoDB backend.
+
+🚀 Tech Stack------------------------------------------------------
+
+React 18
+
+Vite
+
+React Router DOM v6
+
+Axios
+
+Context API
+
+CSS (Custom Styling)
+
+Features--------------------------------------------------------------------
+
+User Login and Signup UI
+
+JWT-based authentication flow
+
+Protected routes (Dashboard & Profile)
+
+Global authentication state using React Context API
+
+Navigation bar with conditional rendering
+
+Logout functionality
+
+Clean and responsive UI
+
+🔐 Authentication Flow-------------------------------------------------------
+
+User registers or logs in
+
+Backend returns a JWT token
+
+Token is stored in authentication context
+
+Protected routes are accessible only for authenticated users
+
+
